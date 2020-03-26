@@ -1,0 +1,27 @@
+a{
+    color: black;
+    font-size: 13px;
+    text-decoration-line: none;
+    font-family: Arial, sans-serif;
+    text-decoration-style: solid;
+}
+div{
+    display: block;
+}
+.search-form{
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    width: 1139px;
+}
+
+#top-left{
+    position: absolute;
+    margin: 7px 0 0 10px;
+    opacity: 0.75;
+}
+#top-right{
+    position: absolute;
+    right: 33.984px;
+    margin: 7px 0 0 10px;
+}
