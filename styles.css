@@ -8,13 +8,39 @@ a{
 div{
     display: block;
 }
-.search-form{
-    display: flex;
-    padding: 5px 8px 0 16px;
-    padding-left: 14px;
-    width: 1139px;
+#google{
+    display: inline-block;
 }
 
+.search-form{
+    border: 1px solid #dfe1e5;
+    border-top-color: rgb(223, 225, 229);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(223, 225, 229);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(223, 225, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(223, 225, 229);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+    border-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+
+    width: 582px;
+    height: 44px;
+}
 #top-left{
     position: absolute;
     margin: 7px 0 0 10px;
