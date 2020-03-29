@@ -10,10 +10,11 @@ div{
     display: block;
 }
 input{
+    margin: auto;
+    height: 40px;
+    width: 550px;
     border: none;
     outline: none;
-    width: 582px;
-    height: 44px;
 }
 #google{
     display: inline-block;
@@ -28,35 +29,11 @@ input{
 }
 .searchbar{
     display: flex;
-    margin:25px auto 25px auto;
-
-    border: 1px solid #dfe1e5;
-    border-top-color: rgb(223, 225, 229);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgb(223, 225, 229);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgb(223, 225, 229);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgb(223, 225, 229);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-
-    border-radius: 24px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-
-    width: 582px;
+    margin: 25px auto;
     height: 44px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
 }
 #top-left{
     display: inline;
@@ -101,3 +78,4 @@ input{
     opacity: 0.75;
   
 }
+
